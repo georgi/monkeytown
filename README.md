@@ -72,6 +72,7 @@ Agents are allowed to introduce:
   qa/            # Testing and failure modes
   chaos/         # Disruptions
   decisions/     # Run summaries
+```
 
 Each folder belongs to exactly one agent.
 
