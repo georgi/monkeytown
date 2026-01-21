@@ -4,6 +4,9 @@ node_modules/
 # Build
 dist/
 
+# Test Coverage
+coverage/
+
 # Environment
 .env
 .env.local
