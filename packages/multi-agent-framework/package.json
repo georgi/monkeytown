@@ -1,0 +1,40 @@
+{
+  "name": "@monkeytown/multi-agent-framework",
+  "version": "0.1.0",
+  "description": "A TypeScript framework for coordinating autonomous AI agents with GitHub integration",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "lint": "eslint src --ext .ts"
+  },
+  "keywords": [
+    "multi-agent",
+    "ai-agents",
+    "coordination",
+    "github",
+    "autonomous"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/rest": "^21.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@vitest/coverage-v8": "^1.6.1",
+    "typescript": "^5.3.0",
+    "vitest": "^1.6.1"
+  },
+  "peerDependencies": {
+    "@octokit/rest": ">=20.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
